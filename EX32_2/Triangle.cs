@@ -37,7 +37,7 @@ namespace EX32
             {
                 bottom = c;
             }
-            float height = GetSurface() * 2 / a;
+            float height = GetSurface() * 2 / bottom;
             vertical = height;
             horizontal = bottom;
         }
